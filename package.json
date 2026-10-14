@@ -1,0 +1,21 @@
+{
+  "name": "socialbot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "coletar": "tsx src/coletar.ts",
+    "fontes:add": "tsx src/fontes-add.ts",
+    "fontes:verificar": "tsx src/fontes-verificar.ts",
+    "test": "node --import tsx --test test/**/*.test.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.4.7",
+    "mongodb": "^6.12.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  }
+}
